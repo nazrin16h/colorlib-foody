@@ -1,0 +1,27 @@
+.servic h3{
+    text-transform: uppercase;
+    color: orange;
+    padding: 10px 0;
+    font: italic normal 400 1em "Open Sans", Arial, sans-serif ;
+}
+.servic p, .heading p, .content p,i{
+    color: #868e96;
+}
+.heading h3{
+    background-color:orangered;
+    width: 100px;
+    height: 3px;
+    margin: auto;
+}
+.heading h2{
+    margin-bottom: 100px ;
+}
+.content h5{
+    color: orangered;
+}
+.head p{
+        color: #868e96;
+}
+.foot span{
+    color: #868e96;
+}
