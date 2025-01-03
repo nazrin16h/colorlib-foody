@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
 </head>
 
 <body>
@@ -21,33 +21,52 @@
         <header>
             <nav>
                 <div class="container">
-                    <p>foody</p>
-                    <i class="fa-solid fa-bars"></i>
-                    <input type="checkbox" id="burgerBtn" />
-                    <label for="burgerBtn">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </label>
-                    <menu>
-                        <li><a href="" class="active">Home</a></li>
-                        <li><a href="">Recipes</a></li>
-                        <li><a href="">Services ▼</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">News</a></li>
-                    </menu>
-                    <div class="btn">
-                        <button class="contact">contact us</button>
+                    <div class="logo"> <a href="">Foody</a></div>
+                    <div class="list">
+                        <menu>
+                            <li>Home</li>
+                            <li>Recipes</li>
+                            <li>About</li>
+                            <li>News</li>
+                        </menu>
                     </div>
+                    <div class="btn btn-outline-white w-lg-50 text-uppercase bg-warning rounded-0 text-white"><a
+                            href="">Contact</a></div>
                 </div>
+                <nav class="navbar navbar-expand-lg bg-black w-100 fixed-top">
+                    <div class="container-fluid">
+                        <a id="logo" class="navbar-brand text-white text-uppercase" href="#">Foody</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Recipes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">News</a>
+                                    </li>
+                                    <div class="btn"><button id="navbar-btn"
+                                            class="btn btn-outline-success w-lg-50 text-uppercase border-0 rounded-0 text-white">Contact
+                                            us</button></div>
 
-                <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                </nav>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
                             <img src="./img/hero_1.jpg" class="d-block w-100" alt="...">
@@ -430,7 +449,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
